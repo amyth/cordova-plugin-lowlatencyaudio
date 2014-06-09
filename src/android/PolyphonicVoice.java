@@ -49,7 +49,7 @@ public class PolyphonicVoice implements OnPreparedListener, OnCompletionListener
 	
 	private void invokePlay( Boolean loop )
 	{
-        Boolean looping = ( mp.isLooping() );
+		Boolean looping = ( mp.isLooping() );
 		Boolean playing = ( mp.isPlaying() );
         if ( looping )
         {
